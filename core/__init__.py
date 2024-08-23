@@ -15,7 +15,6 @@ try:
     import urllib.parse
     from colorama import Fore, Back, init, Style as S; init(autoreset=True)
     from urllib.parse import urlparse, unquote
-
 except ModuleNotFoundError:
     libs = [
         'requests',
@@ -29,4 +28,4 @@ except ModuleNotFoundError:
     for lib in libs:
         os.system(f'pip install {lib}')
 
-    input('Installed all libs! Please re run!')
+    input('Installed all libs! Please re run!!!')
