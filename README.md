@@ -11,7 +11,7 @@ Views on tiktok :O
 - Fast
 
 ## ✍️ Usage
-1. Open `main.py` (hard please be careful)
+1. Open ``main.py`` (hard please be careful)
 
 ## ⚠️ DISCLAIMER / NOTES
 This github repo is for EDUCATIONAL PURPOSES ONLY. I am NOT under any responsibility if a problem occurs.
