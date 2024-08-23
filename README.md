@@ -13,6 +13,9 @@ Views on tiktok :O
 ## ✍️ Usage
 1. Open ``main.py`` (hard please be careful)
 
+## 👀 Resoults
+<img src="https://imgur.com/Wm6g8hn.png">
+
 ## ⚠️ DISCLAIMER / NOTES
 This github repo is for EDUCATIONAL PURPOSES ONLY. I am NOT under any responsibility if a problem occurs.
  
