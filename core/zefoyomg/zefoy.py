@@ -150,7 +150,6 @@ class zefoy:
                         return vid_info[0]
                     else:
                         log.error('PARSE VID', 'Expected pattern not found in vid_info')
-                        return None
                 
                 elif 'Checking Timer...' in vid_info:
                     timer = int(re.findall(r'ltm=(\d*);', vid_info)[0])
