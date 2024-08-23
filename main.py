@@ -8,6 +8,7 @@ from core.plugins.cfg import *
 
 
 
+
 def main():
     cmd.cls()
     UI.banner()
