@@ -10,10 +10,6 @@ def main():
     cmd.cls()
     UI.banner()
     print('\n')
-    UI.stats()
-    print('\n')
-
-    threading.Thread(target=cmd.thread_title).start()
 
     log.info('PROXY SCRAPER', 'Scraping proxies...')
     proxies = requests.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&simplified=true').text
