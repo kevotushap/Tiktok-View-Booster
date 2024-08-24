@@ -1,5 +1,6 @@
 from core import *
 from core.plugins.log import *
+from core.plugins.getvidinfo import *
 from core.plugins.cfg import *
 
 class UI:
@@ -20,6 +21,20 @@ class UI:
 d88  d8P'  88Pd8b_,dP d88  d8P' d8P'      88P `?8bd8P' ?88d8P' ?88 ?8b,     88P   d8b_,dP  88P'  `
 ?8b ,88'  d88 88b     ?8b ,88b ,88'      d88,  d8888b  d8888b  d88   `?8b   88b   88b     d88     
 `?888P'  d88' `?888P' `?888P'888P'      d88'`?88P'`?8888P'`?8888P'`?888P'   `?8b  `?888P'd88'     
+'''
+
+        banner = pystyle.Center.XCenter(banner)
+        print(banner)
+
+    def stats():
+        views, likes, comments, shares = getvidinfo.get() 
+        banner = f'''{Fore.BLUE}
+     ID    > {cfg().get().rsplit('/', 1)[-1]}
+   Owner   > {cfg().get().split('/')[3][1:]}
+   Views   > {views}
+   Likes   > {likes}
+  Comments > {comments}
+   Shares  > {shares}
 '''
 
         banner = pystyle.Center.XCenter(banner)

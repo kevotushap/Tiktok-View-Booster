@@ -10,6 +10,9 @@ def main():
     cmd.cls()
     UI.banner()
     print('\n')
+    UI.stats()
+    print('\n')
+
     threading.Thread(target=cmd.thread_title).start()
 
     log.info('PROXY SCRAPER', 'Scraping proxies...')
