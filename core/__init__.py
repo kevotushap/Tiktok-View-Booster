@@ -24,7 +24,9 @@ except ModuleNotFoundError as e:
         'uuid',
         'datetime',
         'colorama',
-        'pystyle'
+        'pystyle',
+        'typing-extensions',
+        'typing_extensions'
     ]
 
     for lib in libs:
