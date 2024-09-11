@@ -1,10 +1,10 @@
 from core import *
 
 class cmd:
-    def cls():
+    def cls(self):
         os.system('cls')
 
-    def thread_title():
+    def thread_title(self):
         while True:
             current_time = time.time()
             runtime = int(current_time - start_time)

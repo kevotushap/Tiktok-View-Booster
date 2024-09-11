@@ -1,7 +1,7 @@
 from core import *
 
 class utils:
-    def gen_timestamp():
+    def gen_timestamp(self):
         fraction = f'{random.uniform(0, 1):.8f}'
         epoch_time = int(time.time())
         return f'&amp;t={fraction}+{epoch_time}'

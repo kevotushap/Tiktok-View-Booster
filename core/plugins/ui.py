@@ -3,7 +3,7 @@ from core.plugins.log import *
 from core.plugins.cfg import *
 
 class UI:
-    def banner():
+    def banner(self, pystyle=None):
         banner = f'''{Fore.BLUE}
                           d8, d8b                        d8b                                      
                    d8P   `8P  ?88          d8P           ?88                                      

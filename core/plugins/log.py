@@ -8,7 +8,7 @@ class f:
     green = Fore.GREEN
 
 class log:
-    def get_time() -> str:
+    def get_time(self) -> str:
         return datetime.datetime.now().strftime('%H:%M:%S')
     
     def info(module: str, message: str):
